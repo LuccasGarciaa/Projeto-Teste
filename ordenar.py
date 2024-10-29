@@ -21,7 +21,7 @@ equipamento_filmagem = [
     ('Tripé', 300),
     ('Câmera', 1700),
     ('Iluminação', 200),
-]
+    ]
 
 equipamento_filmagem.sort(key=itemgetter(1), reverse=True)
 print(equipamento_filmagem)
